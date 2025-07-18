@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deliver') { 
             steps {
-                bat 'java -jar "%WORKSPACE%/target/my-app-1.0-SNAPSHOT.jar' 
+                bat 'java -jar "%WORKSPACE%/target/my-app-1.0-SNAPSHOT.jar"'
             }
         }
     }
